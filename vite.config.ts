@@ -8,6 +8,14 @@ import Components from 'unplugin-vue-components/vite'
 import SvgComponent from 'unplugin-svg-component/vite'
 import UnoCSS from 'unocss/vite'
 export default defineConfig({
+  resolve: {
+    alias: {
+      // @ 符号指向 src 目录
+      '@': resolve(__dirname, 'src'),
+      // @@ 符号指向 src/common 通用目录
+      '@@': resolve(__dirname, 'src/common')
+    }
+  },
   plugins: [
     vue(),
     // 自动按需导入 API
