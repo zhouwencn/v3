@@ -33,7 +33,7 @@ export default defineConfig({
       dtsDir: resolve(__dirname, 'types/auto')
     }),
     // 原子化 CSS
-    // UnoCSS()
+    UnoCSS()
   ]
   // ... 配置项
 })
