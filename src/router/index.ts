@@ -1,10 +1,11 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-const Layouts = () => import('@/layouts/index.vue')
+import { createRouter, createWebHashHistory } from "vue-router"
+
+const Layouts = () => import("@/layouts/index.vue")
 export const constantRoutes = [
   {
-    path: '/',
+    path: "/",
     component: Layouts
-  },
+  }
   // {
   //   path: '/403',
   //   component: () => import('@/layouts/index.vue'),

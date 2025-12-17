@@ -22,8 +22,8 @@
       "@@/*": ["src/common/*"]
     },
     "resolveJsonModule": true,
-    // vite/client	让 TS 认识 Vite 特有的语法（如环境变量、资源导入）。
-// element-plus/global	让 TS 认识 Element Plus 的组件标签和全局方法。
+    // vite/client让 TS 认识 Vite 特有的语法（如环境变量、资源导入）。
+    // element-plus/global让 TS 认识 Element Plus 的组件标签和全局方法。
     // "types": ["vite/client", "element-plus/global"],
     // 允许导入 .ts .mts .tsx 拓展名的文件
     "allowImportingTsExtensions": true,

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { AppMain } from "@/layouts/components";
+import { AppMain } from "@/layouts/components"
 </script>
 
 <template>
