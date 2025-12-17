@@ -10,10 +10,10 @@ import { defineConfig, loadEnv } from "vite"
 import svgLoader from "vite-svg-loader"
 
 export default defineConfig(({ mode }) => {
-  const { VITE_PUBLIC_PATH } = loadEnv(mode, process.cwd(), "") as ImportMetaEnv
+  // const { VITE_PUBLIC_PATH } = loadEnv(mode, process.cwd(), "") as ImportMetaEnv
   return {
     // 开发或打包构建时用到的公共基础路径
-    base: VITE_PUBLIC_PATH,
+    // base: VITE_PUBLIC_PATH,
     resolve: {
       alias: {
         // @ 符号指向 src 目录
